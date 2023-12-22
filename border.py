@@ -19,7 +19,6 @@ if ConsoleRGB=="":
 
 r,g,b=hex_to_rgb(ConsoleRGB)
 
-
 import tkinter as tk
 from tkinter import filedialog
 
