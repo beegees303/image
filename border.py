@@ -51,5 +51,8 @@ def apply_shadow(image_path, alpha, thickness):
 
 shadowed_img = apply_shadow(pdfFileObj, ConsoleAlpha, ConsoleThick)
 
-shadowed_img.show()
+import os
+
+dir_name, file_name = os.path.split(filename)
+shadowed_img.save("border_"+file_name)
 
